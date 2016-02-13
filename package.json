@@ -2,7 +2,7 @@
   "name": "eslint-config-bdougherty",
   "version": "1.0.0",
   "description": "My default ESLint config.",
-  "main": "index.js",
+  "main": ".eslintrc.json",
   "repository": "bdougherty/eslint-config",
   "bugs": "https://github.com/bdougherty/eslint-config/issues",
   "keywords": [
@@ -11,8 +11,7 @@
   ],
   "author": "Brad Dougherty <me@brad.is>",
   "license": "MIT",
-  "dependencies": {
-    "js-yaml": "^3.3.0",
-    "strip-json-comments": "^1.0.2"
+  "peerDependencies": {
+    "eslint": ">=2.0.0"
   }
 }
