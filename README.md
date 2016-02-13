@@ -16,4 +16,12 @@ Then add the `extends` option to your `.eslintrc`:
 }
 ```
 
+If the project is using ES6, extend from the ES6 version instead:
+
+```json
+{
+	"extends": "bdougherty/es6"
+}
+```
+
 You can override specific settings by specifying them as normal. See <http://eslint.org/docs/developer-guide/shareable-configs> for more details.

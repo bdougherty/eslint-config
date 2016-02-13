@@ -2,7 +2,7 @@
   "name": "eslint-config-bdougherty",
   "version": "2.0.0",
   "description": "My default ESLint config.",
-  "main": ".eslintrc.json",
+  "main": "index.js",
   "repository": "bdougherty/eslint-config",
   "bugs": "https://github.com/bdougherty/eslint-config/issues",
   "keywords": [
