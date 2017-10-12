@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bdougherty",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "My default ESLint config.",
   "main": "index.js",
   "repository": "bdougherty/eslint-config",
@@ -13,7 +13,7 @@
   "author": "Brad Dougherty <me@brad.is>",
   "license": "MIT",
   "engines": {
-  "node": ">=4"
+    "node": ">=4"
   },
   "files": [
     "index.js",
