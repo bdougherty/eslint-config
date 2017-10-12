@@ -7,11 +7,26 @@
   "bugs": "https://github.com/bdougherty/eslint-config/issues",
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "xo"
   ],
   "author": "Brad Dougherty <me@brad.is>",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": ">=2.0.0"
+  "engines": {
+  "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "browser.js",
+    "node.js"
+  ],
+  "scripts": {
+    "test": "xo"
+  },
+  "dependencies": {
+    "eslint-config-xo": "^0.18.2"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
   }
 }

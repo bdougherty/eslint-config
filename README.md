@@ -1,27 +1,43 @@
-# Brad’s ESLint Config
+# eslint-config-bdougherty
 
-## How to use it
+> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for my personal projects.
 
-First, install the npm package:
+## Install
 
 ```bash
-npm install --save-dev eslint-config-bdougherty
+yarn add eslint-config-bdougherty
 ```
 
-Then add the `extends` option to your `.eslintrc`:
+## Usage
+
+This config contains a couple rule overrides and is primarily designed to be used with [XO](https://github.com/sindresorhus/xo). Add the following to package.json:
 
 ```json
 {
-	"extends": "bdougherty"
+	"xo": {
+		"extends": "bdougherty"
+	}
 }
 ```
 
-If the project is using ES6, extend from the ES6 version instead:
+This package also exposes two configs that can be used directly with ESLint.
+
+[`bdougherty/browser`](browser.js) for browser-based projects:
 
 ```json
 {
-	"extends": "bdougherty/es6"
+	"extends": "bdougherty/browser"
 }
 ```
 
-You can override specific settings by specifying them as normal. See <http://eslint.org/docs/developer-guide/shareable-configs> for more details.
+and [`bdougherty/node`](node.js) for node-based projects:
+
+```json
+{
+	"extends": "bdougherty/node"
+}
+```
+
+## License
+
+MIT © [Brad Dougherty](https://brad.is)
