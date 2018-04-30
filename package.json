@@ -16,9 +16,10 @@
     "node": ">=4"
   },
   "files": [
-    "index.js",
     "browser.js",
-    "node.js"
+    "index.js",
+    "nuxt.js",
+    "vue.js"
   ],
   "scripts": {
     "test": "xo"
