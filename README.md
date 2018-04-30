@@ -32,6 +32,34 @@ This package also exposes other configs that can be used for specific types of p
 }
 ```
 
+[`bdougherty/vue`](vue.js) for Vue.js-based projects:
+
+```json
+{
+  "xo": {
+	"extends": "bdougherty/vue",
+    "extensions": [
+      "vue"
+    ]
+  }
+}
+```
+
+[`bdougherty/nuxt`](nuxt.js) for Nuxt.js-based projects:
+
+```json
+{
+  "xo": {
+	"extends": "bdougherty/nuxt",
+    "extensions": [
+      "vue"
+    ]
+  }
+}
+```
+
+> Note: make sure to add the extensions config for both Vue.js and Nuxt.js projects if using single-file components.
+
 ## License
 
 MIT © [Brad Dougherty](https://brad.is)
