@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+	extends: 'xo/esnext',
 	rules: {
 		'arrow-parens': ['error', 'always'],
 		'brace-style': ['error', 'stroustrup'],

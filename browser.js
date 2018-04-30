@@ -3,11 +3,7 @@ const path = require('path');
 
 module.exports = {
 	extends: [
-		'xo/esnext',
+		'xo/browser',
 		path.join(__dirname, 'index.js')
-	],
-	env: {
-		node: false,
-		browser: true
-	}
+	]
 };

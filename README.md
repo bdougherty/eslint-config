@@ -14,27 +14,21 @@ This config contains a couple rule overrides and is primarily designed to be use
 
 ```json
 {
-	"xo": {
-		"extends": "bdougherty"
-	}
+  "xo": {
+    "extends": "bdougherty"
+  }
 }
 ```
 
-This package also exposes two configs that can be used directly with ESLint.
+This package also exposes other configs that can be used for specific types of projects.
 
 [`bdougherty/browser`](browser.js) for browser-based projects:
 
 ```json
 {
-	"extends": "bdougherty/browser"
-}
-```
-
-and [`bdougherty/node`](node.js) for node-based projects:
-
-```json
-{
-	"extends": "bdougherty/node"
+  "xo": {
+    "extends": "bdougherty/browser"
+  }
 }
 ```
 
