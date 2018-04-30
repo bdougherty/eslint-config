@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bdougherty",
-  "version": "4.1.1",
+  "version": "5.0.0",
   "description": "My default ESLint config.",
   "main": "index.js",
   "repository": "bdougherty/eslint-config",
