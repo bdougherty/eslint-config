@@ -58,6 +58,32 @@ This package also exposes other configs that can be used for specific types of p
 }
 ```
 
+[`bdougherty/svelte`](svelte.js) for Svelte-based projects:
+
+```json
+{
+  "xo": {
+    "extends": "bdougherty/svelte",
+    "extensions": [
+      "html"
+    ]
+  }
+}
+```
+
+[`bdougherty/sapper`](sapper.js) for Sapper-based projects:
+
+```json
+{
+  "xo": {
+    "extends": "bdougherty/sapper",
+    "extensions": [
+      "html"
+    ]
+  }
+}
+```
+
 > Note: make sure to add the extensions config for both Vue.js and Nuxt.js projects if using single-file components.
 
 ## License
