@@ -25,9 +25,9 @@
     "test": "xo"
   },
   "dependencies": {
-    "eslint-config-xo": "^0.22.0"
+    "eslint-config-xo": "^0.23.0"
   },
   "devDependencies": {
-    "xo": "^0.20.3"
+    "xo": "^0.21.1"
   }
 }
