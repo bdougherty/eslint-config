@@ -6,6 +6,7 @@ module.exports = {
 		ecmaVersion: 2018
 	},
 	plugins: [
+		'html',
 		'vue'
 	],
 	extends: [

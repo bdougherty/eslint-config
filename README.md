@@ -37,7 +37,7 @@ This package also exposes other configs that can be used for specific types of p
 ```json
 {
   "xo": {
-	"extends": "bdougherty/vue",
+    "extends": "bdougherty/vue",
     "extensions": [
       "vue"
     ]
@@ -50,7 +50,7 @@ This package also exposes other configs that can be used for specific types of p
 ```json
 {
   "xo": {
-	"extends": "bdougherty/nuxt",
+    "extends": "bdougherty/nuxt",
     "extensions": [
       "vue"
     ]
