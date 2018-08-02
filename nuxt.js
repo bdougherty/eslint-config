@@ -36,6 +36,14 @@ module.exports = {
 		}
 	],
 	settings: {
+		'import/resolver': {
+			nuxt: {
+				extensions: [
+					'.js',
+					'.vue'
+				]
+			}
+		},
 		'import/core-modules': [
 			'vuex'
 		]
