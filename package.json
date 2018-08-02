@@ -19,7 +19,9 @@
     "browser.js",
     "index.js",
     "nuxt.js",
-    "vue.js"
+    "vue.js",
+    "svelte.js",
+    "sapper.js"
   ],
   "scripts": {
     "test": "xo"
